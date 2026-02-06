@@ -1,4 +1,4 @@
-# Frankenstein Cultural Data Maze – Your Name
+# Frankenstein Cultural Data Maze – Tara Vittal
 
 ## Theme
 This maze explores Mary Shelley's *Frankenstein* as cultural data, focusing on knowledge, creation, and responsibility.
