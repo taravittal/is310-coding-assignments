@@ -1,0 +1,3 @@
+Welcome to the Frankenstein Cultural Data Maze.
+Clue: This story begins with letters.
+Command hint: cd ../letters

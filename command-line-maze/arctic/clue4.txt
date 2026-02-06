@@ -1,0 +1,3 @@
+Clue: The story ends in ice and isolation.
+Finish the maze.
+Command hint: cd ../solution

@@ -1,0 +1,2 @@
+You solved the Frankenstein maze.
+If you found the FINAL KEY, you reached the end.

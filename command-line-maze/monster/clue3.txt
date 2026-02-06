@@ -1,0 +1,3 @@
+Clue: The creature is hidden from plain sight.
+Return to the maze root and look carefully.
+Command hint: cd .. && ls -la

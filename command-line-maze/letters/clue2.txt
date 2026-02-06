@@ -1,0 +1,3 @@
+Clue: Knowledge and ambition drive the experiment.
+Look where science lives.
+Command hint: cd ../science

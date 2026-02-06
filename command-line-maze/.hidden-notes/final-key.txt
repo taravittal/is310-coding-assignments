@@ -1,0 +1,2 @@
+FINAL KEY: CREATION WITHOUT RESPONSIBILITY LEADS TO TRAGEDY
+Command hint: cd ../solution && cat exit.txt
