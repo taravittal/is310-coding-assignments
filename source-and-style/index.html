@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digitized Cultural Object</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 40px;
+    }
+    .box {
+      border: 1px solid black;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    img {
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Digitized Cultural Object</h1>
+
+  <div class="box">
+    <h2>[Object Title]</h2>
+
+    <p>
+      This object represents [describe what it is and why it matters].
+    </p>
+
+    <img src="[PASTE IMAGE URL HERE]" alt="Cultural Object Image">
+
+    <p>
+      <strong>Original Collection:</strong>
+      <a href="[PASTE COLLECTION LINK HERE]" target="_blank">
+        View Collection
+      </a>
+    </p>
+
+    <h3>Metadata</h3>
+    <ul>
+      <li>Creator: [Name]</li>
+      <li>Date: [Date]</li>
+      <li>Location: [Place]</li>
+      <li>Format: [Photograph / Poster / etc.]</li>
+    </ul>
+
+    <button onclick="showMessage()">Click Me</button>
+    <p id="message"></p>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").innerText =
+        "Digitization helps preserve cultural history!";
+    }
+  </script>
+
+</body>
+</html>
 
