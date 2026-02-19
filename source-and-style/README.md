@@ -3,37 +3,37 @@
 ## Assignment 1: Inspecting the Cultural Web
 
 ### Website
-- Name: HathiTrust Digital Library
-- Link: https://www.hathitrust.org
+- Name: HathiTrust Digital Library  
+- Link: https://www.hathitrust.org  
 
-### Technologies Used
-When inspecting the HathiTrust website, I found evidence of the following web technologies:
+### What Technologies Does It Use?
 
-- **HTML** – This structures the webpage content, such as headings, buttons, navigation menus, and text.
-- **CSS** – Used to style the appearance of the page (fonts, layout, colors, spacing).
-- **JavaScript** – Used for interactive elements like menus, search functionality, and dynamic page updates.
+After inspecting the HathiTrust website using the browser’s Developer Tools, I found that it uses:
 
-### Evidence from Inspecting
-When using the browser Developer Tools (right-click → Inspect):
+- **HTML** to structure the page (headings, navigation, search bar, content sections).
+- **CSS** to control the design, including layout, colors, fonts, and spacing.
+- **JavaScript** to handle interactive elements like the search feature and navigation menus.
 
-- I saw multiple HTML elements including `<div>`, `<header>`, `<nav>`, `<form>`, `<main>`, and `<footer>`.
-- Linked CSS files were visible in the `<head>` section showing stylesheet `.css` links.
-- JavaScript files (ending in `.js`) were visible in the “Sources” and “Network” tabs, indicating dynamic behavior like search boxes and menu toggles.
-- Other file types included:
-  - Images (`.png`, `.svg`) – used for logos and icons.
-  - Font files (`.woff`, `.woff2`) – used for custom typography.
-  - JSON data fetched via scripts.
+### What I Saw in the Inspector
 
-### Who Built It / Who Maintains It?
-- The website is maintained by the **HathiTrust Organization**, which is a partnership of major research institutions and libraries.
-- HathiTrust is a collaborative repository for digitized books and cultural heritage materials.
+When I right-clicked and selected “Inspect,” I noticed:
 
-### GitHub Repository (if found)
-- A specific public GitHub repository for HathiTrust’s main site was **not found** during inspection.
+- Lots of `<div>`, `<nav>`, `<header>`, `<main>`, and `<footer>` elements in the HTML.
+- Linked CSS files in the `<head>` section.
+- JavaScript files ending in `.js` in the Sources and Network tabs.
+- Other files like:
+  - `.png` and `.svg` files for images and logos
+  - `.woff` and `.woff2` files for fonts
+  - Some dynamic content loaded with scripts
 
-### Contributors / How Many People Were Involved?
-- While a specific public contributors page for the official website was not obvious, HathiTrust is supported and developed by many partner libraries with multiple staff roles.
-- The HathiTrust blog and “About” pages indicate contributions from the HathiTrust Digital Library team.
+### Who Built It?
 
----
+HathiTrust is run by a partnership of major research libraries and institutions. It’s a collaborative digital repository, so it’s supported and maintained by a team rather than a single person. I found this information on their “About” page.
 
+### GitHub Repository
+
+I did not find a public GitHub repository for the main HathiTrust website.
+
+### Contributors
+
+While there isn’t a visible contributors page like on GitHub, the About section explains that it is supported by many partner institutions, which suggests that multiple developers and s
