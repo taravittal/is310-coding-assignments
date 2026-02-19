@@ -1,61 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Digitized Cultural Object</title>
+  <meta charset="UTF-8">
+  <title>Narrative of the Life of Frederick Douglass</title>
+
   <style>
     body {
-      font-family: Arial;
+      font-family: Arial, sans-serif;
       margin: 40px;
+      max-width: 900px;
+      line-height: 1.6;
     }
-    .box {
-      border: 1px solid black;
+
+    .header {
+      background: #f4f4f4;
       padding: 15px;
-      margin-top: 20px;
+      border: 2px solid black;
+      margin-bottom: 20px;
     }
+
+    .object-card {
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
     img {
-      max-width: 400px;
+      max-width: 300px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .meta {
+      background: #f9f9f9;
+      padding: 10px;
+      margin-top: 15px;
+      border-radius: 6px;
+    }
+
+    button {
+      padding: 8px 12px;
+      margin-top: 10px;
+      cursor: pointer;
     }
   </style>
 </head>
+
 <body>
 
-  <h1>My Digitized Cultural Object</h1>
+  <h1>Narrative of the Life of Frederick Douglass (1845)</h1>
 
-  <div class="box">
-    <h2>[Object Title]</h2>
+  <div class="header">
+    <strong>Course:</strong> IS310 Culture as Data (Spring 2026)<br>
+    <strong>Assignment:</strong> Source and Style
+  </div>
+
+  <div class="object-card">
+
+    <h2>About This Object</h2>
 
     <p>
-      This object represents [describe what it is and why it matters].
+      <strong>Narrative of the Life of Frederick Douglass, an American Slave</strong> 
+      is an autobiographical work published in 1845. In this book, Frederick Douglass 
+      recounts his experiences in slavery and his journey toward freedom. The text 
+      became one of the most influential works in American abolitionist literature 
+      and played a significant role in shaping public opinion about slavery.
     </p>
 
-    <img src="[PASTE IMAGE URL HERE]" alt="Cultural Object Image">
+    <p>
+      This digitized version is preserved and made accessible through the 
+      HathiTrust Digital Library, which provides access to millions of scanned 
+      historical texts from research institutions around the world.
+    </p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Narrative_of_the_Life_of_Frederick_Douglass_1845.jpg"
+         alt="Cover of Narrative of the Life of Frederick Douglass">
 
     <p>
-      <strong>Original Collection:</strong>
-      <a href="[PASTE COLLECTION LINK HERE]" target="_blank">
-        View Collection
+      <strong>View in HathiTrust:</strong>
+      <a href="https://catalog.hathitrust.org/Record/000446245" target="_blank">
+        HathiTrust Catalog Record
       </a>
     </p>
 
-    <h3>Metadata</h3>
-    <ul>
-      <li>Creator: [Name]</li>
-      <li>Date: [Date]</li>
-      <li>Location: [Place]</li>
-      <li>Format: [Photograph / Poster / etc.]</li>
-    </ul>
+    <div class="meta">
+      <h3>Metadata</h3>
+      <ul>
+        <li><strong>Author:</strong> Frederick Douglass</li>
+        <li><strong>Publication Year:</strong> 1845</li>
+        <li><strong>Publisher:</strong> Anti-Slavery Office</li>
+        <li><strong>Format:</strong> Book (Digitized Text)</li>
+        <li><strong>Language:</strong> English</li>
+      </ul>
+    </div>
 
-    <button onclick="showMessage()">Click Me</button>
-    <p id="message"></p>
+    <button onclick="showFact()">Click for a Fun Fact</button>
+    <p id="fact"></p>
+
   </div>
 
   <script>
-    function showMessage() {
-      document.getElementById("message").innerText =
-        "Digitization helps preserve cultural history!";
+    function showFact() {
+      document.getElementById("fact").innerText =
+        "This book was so powerful that it helped fuel the abolitionist movement in the United States.";
     }
   </script>
 
 </body>
 </html>
-
