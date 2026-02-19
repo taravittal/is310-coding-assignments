@@ -3,34 +3,37 @@
 ## Assignment 1: Inspecting the Cultural Web
 
 ### Website
-- Name: [NAME OF WEBSITE]
-- Link: [PASTE LINK]
+- Name: HathiTrust Digital Library
+- Link: https://www.hathitrust.org
 
 ### Technologies Used
-After inspecting the website using Developer Tools, I observed:
+When inspecting the HathiTrust website, I found evidence of the following web technologies:
 
-- HTML: Yes (page structure elements like div, header, nav)
-- CSS: Yes (styling for layout, fonts, colors)
-- JavaScript: Yes (interactive features, menus, dynamic content)
+- **HTML** – This structures the webpage content, such as headings, buttons, navigation menus, and text.
+- **CSS** – Used to style the appearance of the page (fonts, layout, colors, spacing).
+- **JavaScript** – Used for interactive elements like menus, search functionality, and dynamic page updates.
 
-### Evidence
-When inspecting the site:
-- I saw HTML elements such as <div>, <main>, <section>, <nav>
-- I saw linked CSS files in the head section
-- I saw JavaScript files (.js) in the Sources tab
+### Evidence from Inspecting
+When using the browser Developer Tools (right-click → Inspect):
 
-Other file types observed:
-- .png / .jpg (images)
-- .svg (icons)
-- .woff or .woff2 (fonts)
+- I saw multiple HTML elements including `<div>`, `<header>`, `<nav>`, `<form>`, `<main>`, and `<footer>`.
+- Linked CSS files were visible in the `<head>` section showing stylesheet `.css` links.
+- JavaScript files (ending in `.js`) were visible in the “Sources” and “Network” tabs, indicating dynamic behavior like search boxes and menu toggles.
+- Other file types included:
+  - Images (`.png`, `.svg`) – used for logos and icons.
+  - Font files (`.woff`, `.woff2`) – used for custom typography.
+  - JSON data fetched via scripts.
 
-### Who Built It?
-- Organization: [NAME]
-- I found this information in the footer / About page.
+### Who Built It / Who Maintains It?
+- The website is maintained by the **HathiTrust Organization**, which is a partnership of major research institutions and libraries.
+- HathiTrust is a collaborative repository for digitized books and cultural heritage materials.
 
-### GitHub Repository
-- [PASTE LINK IF FOUND or say “No public repo found”]
+### GitHub Repository (if found)
+- A specific public GitHub repository for HathiTrust’s main site was **not found** during inspection.
 
-### Contributors
-- I checked the GitHub contributors page / About section.
-- [Explain what you found]
+### Contributors / How Many People Were Involved?
+- While a specific public contributors page for the official website was not obvious, HathiTrust is supported and developed by many partner libraries with multiple staff roles.
+- The HathiTrust blog and “About” pages indicate contributions from the HathiTrust Digital Library team.
+
+---
+
