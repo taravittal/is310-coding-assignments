@@ -1,35 +1,40 @@
-import csv
 import cloudscraper
+import csv
 from bs4 import BeautifulSoup
 
-url = "https://arianagrande.fandom.com/wiki/Ariana_Grande_Wiki"
-
 scraper = cloudscraper.create_scraper()
-response = scraper.get(url, timeout=10)
 
-print("Status code:", response.status_code)
+def get_song_data(url):
+    try:
+        response = scraper.get(url, timeout=10)
+        if response.status_code != 200:
+            return []
 
-soup = BeautifulSoup(response.text, "html.parser")
+        soup = BeautifulSoup(response.text, "html.parser")
+        songs = soup.find_all('a', class_='category-page__member-link')
 
-data = []
+        songs_data = []
 
-singles_link = soup.find("a", string="Singles")
+        for song in songs:
+            song_data = {
+                "song_title": song.get_text(),
+                "song_link": "https://arianagrande.fandom.com" + song.get('href')
+            }
+            songs_data.append(song_data)
 
-if singles_link:
-    singles_list = singles_link.find_parent("li")
-    if singles_list:
-        nested_items = singles_list.find_all("a")
-        for item in nested_items:
-            title = item.get_text(strip=True)
-            link = item.get("href")
-            if title and title != "Singles":
-                if link and link.startswith("/"):
-                    link = "https://arianagrande.fandom.com" + link
-                data.append([title, link])
+        return songs_data
 
-with open("ariana_grande_singles.csv", "w", newline="", encoding="utf-8") as file:
+    except Exception as e:
+        print(f"Error getting song data from {url}: {e}")
+        return []
+
+songs_data = get_song_data("https://arianagrande.fandom.com/wiki/Category:Songs")
+
+with open('ariana_grande_songs.csv', 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
-    writer.writerow(["single_title", "link"])
-    writer.writerows(data)
+    writer.writerow(['song_title', 'song_link'])
 
-print("Saved", len(data), "rows to ariana_grande_singles.csv")
+    for song in songs_data:
+        writer.writerow([song['song_title'], song['song_link']])
+
+print("Done scraping Ariana Grande songs")
