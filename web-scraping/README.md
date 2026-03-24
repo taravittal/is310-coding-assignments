@@ -11,10 +11,10 @@ https://arianagrande.fandom.com/robots.txt
 
 The robots.txt file allows access to most public-facing wiki pages, including the songs category page that I used. It mainly blocks certain internal or administrative pages, which I avoided.
 
-However, the Terms of Use are stricter and state that automated scraping is not allowed without permission. Because of this, I treated this project as a small, educational exercise using only a limited amount of publicly available data. I did not attempt large-scale scraping or anything that would negatively affect the website. If this were a real research project, I would look for permission or use an official API.
+However, the Terms of Use are stricter and say that automated scraping is not allowed without permission. This is why I treated this project as a small, educational exercise using only a limited amount of publicly available data. I did not attempt larger scale scraping or anything that would negatively affect the website. If this were a real research project, I would look for permission or use an official API.
 
 ## Choice of Wiki and Data Collected
-I chose the Ariana Grande Wiki because I have been a huge Ariana Grande fan for the past 8 years and already have a lot of prior knowledge about her. Because of that, I was interested in seeing how her music and career are represented as data on a fan-created website.
+I chose the Ariana Grande Wiki because I have been a huge Ariana Grande fan for the past 8 years and already have a lot of prior knowledge about her. Because of that, I was interested in seeing how her music and career are represented as data on a fan created website.
 
 For this project, I scraped song titles and their corresponding links from the songs category page. I focused on songs because they are clearly organized and easy to collect in a structured way.
 
