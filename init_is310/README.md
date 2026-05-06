@@ -1,11 +1,19 @@
-# IS310 Coding Assignments
+# Init IS310 Homework
 
-## Culture as Data – Homework Repository
+## Proof of Installation
 
-This repository contains my coding assignments for IS310. Each assignment is organized into its own folder.
+1. Python
 
-### Assignments
-- init_is310
-- command-line-maze
+![Python Installation](images/python-installation.png)
 
-- [ ] https://cultureasdata.web.illinois.edu/
+2. Git
+
+![Git Installation](images/git-installation.png)
+
+3. VS Code
+
+![VS Code Installation](images/vscode-installation.png)
+
+4. AI Tool/Workflow 
+
+How will you work with AI? What tools if any do you plan to use?
